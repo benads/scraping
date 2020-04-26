@@ -1,6 +1,6 @@
 import requests
 
-headers = {"Authorization": 'token 47137a2d0eb9a8cefcd1ed4c98858a50a122e9f5'}
+headers = {"Authorization": 'token c90c2e878ed99bdf2e2da9ffb8e928449541314d'}
 response = requests.get('http://api.github.com/users/benads', headers=headers)
 print(response.json())
 
